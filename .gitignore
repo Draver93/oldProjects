@@ -1,0 +1,13 @@
+Engine_DAE_GPU_SKELETON_ANIMATION/Engine/External
+Engine_DAE_GPU_SKELETON_ANIMATION/Engine/Resources
+Engine_DAE_GPU_SKELETON_ANIMATION/Engine/.vs
+Engine_DX_MAKEFILE_PROJ/Engine/Build
+Engine_DX_MAKEFILE_PROJ/Engine/Objects
+Engine_GE_LIB/Engine/External
+Engine_GE_LIB/Engine/.vs
+Engine_X_CPU_SKELETON_ANIMATION/Engine/External
+Engine_X_CPU_SKELETON_ANIMATION/Engine/Resources
+Engine_X_CPU_SKELETON_ANIMATION/Engine/.vs
+Engine_X_GPU_SKELETON_ANIMATION/Engine/External
+Engine_X_GPU_SKELETON_ANIMATION/Engine/Resources
+Engine_X_GPU_SKELETON_ANIMATION/Engine/.vs

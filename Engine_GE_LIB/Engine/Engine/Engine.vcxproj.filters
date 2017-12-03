@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{23d1e3dc-57ae-4d04-93de-cc1605db4384}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\input">
+      <UniqueIdentifier>{a032e4bf-bbae-4a7a-9617-092555904365}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\manager">
+      <UniqueIdentifier>{20e83399-6d78-420f-8bd9-327259a5714b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\output">
+      <UniqueIdentifier>{1ba46b53-0acd-4a09-abe0-3ecc64ef1982}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\processing">
+      <UniqueIdentifier>{e2c79d81-4c5b-47ff-b58b-897de146753d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\resources">
+      <UniqueIdentifier>{c42ba172-4291-4e20-a5d0-0267d0c0d0ab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Sources\GE.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\input.h">
+      <Filter>Sources\input</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\manager.h">
+      <Filter>Sources\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\output.h">
+      <Filter>Sources\output</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\processing.h">
+      <Filter>Sources\processing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\resources.h">
+      <Filter>Sources\resources</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Sources\input.cpp">
+      <Filter>Sources\input</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\manager.cpp">
+      <Filter>Sources\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\output.cpp">
+      <Filter>Sources\output</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\processing.cpp">
+      <Filter>Sources\processing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\resources.cpp">
+      <Filter>Sources\resources</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

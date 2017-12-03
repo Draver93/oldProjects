@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{b0247000-620d-4a25-ab8c-20ec858221db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\camera">
+      <UniqueIdentifier>{0161108a-f738-44f0-b958-e09c32867cc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\controls">
+      <UniqueIdentifier>{c0d23b5c-82f3-4854-9bb3-dc9d8f6c08db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\font">
+      <UniqueIdentifier>{652e7135-7d8e-4a86-92cc-7ec1f65033f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\graphics">
+      <UniqueIdentifier>{ff952162-0fab-4126-93d4-8cdb6e66a697}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\object">
+      <UniqueIdentifier>{2614ce24-23a1-4220-839f-2d3178aa171f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\shader">
+      <UniqueIdentifier>{91a19802-f375-456c-aca8-c9486fc9228b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\window">
+      <UniqueIdentifier>{9fb7d821-af8e-4fb8-9cb4-f357f519710e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\entry">
+      <UniqueIdentifier>{41303f9d-72a7-4eb8-9183-3d90f1f5b4f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\components">
+      <UniqueIdentifier>{00625308-402a-445f-a8f2-6f8b751e2d45}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Sources\header.h">
+      <Filter>Sources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\direct_cam.h">
+      <Filter>Sources\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\direct_control.h">
+      <Filter>Sources\controls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\direct_font.h">
+      <Filter>Sources\font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\direct_api.h">
+      <Filter>Sources\graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\window_api.h">
+      <Filter>Sources\window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\direct_shader.h">
+      <Filter>Sources\shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Sources\direct_mesh.h">
+      <Filter>Sources\object</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Sources\direct_cam.cpp">
+      <Filter>Sources\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\direct_control.cpp">
+      <Filter>Sources\controls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\direct_font.cpp">
+      <Filter>Sources\font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\direct_api.cpp">
+      <Filter>Sources\graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\main.cpp">
+      <Filter>Sources\entry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\make_components.cpp">
+      <Filter>Sources\components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\window_api.cpp">
+      <Filter>Sources\window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\direct_shader.cpp">
+      <Filter>Sources\shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Sources\direct_mesh.cpp">
+      <Filter>Sources\object</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
